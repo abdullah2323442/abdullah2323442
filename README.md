@@ -95,11 +95,12 @@ These reflect my coding growth & constant learning.
 
 ---
 
-# 📈 GitHub Stats
+## 📈 GitHub Stats
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=abdullah2323442&show_icons=true&theme=tokyonight">
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abdullah2323442&layout=compact&theme=tokyonight">
+  <img height="160" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=abdullah2323442&show_icons=true&theme=tokyonight" />
+  <img height="160" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=abdullah2323442&layout=compact&theme=tokyonight" />
 </p>
+
 
 ---
 
