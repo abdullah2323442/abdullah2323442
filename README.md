@@ -496,12 +496,13 @@ Daily problem-solving & experiments — documented proof of relentless growth.
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=abdullah2323442&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF2D20&icon_color=FF2D20&text_color=C9D1D9&count_private=true&include_all_commits=true" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=abdullah2323442&theme=radical" />
 <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=abdullah2323442&theme=radical&hide_border=true&background=0D1117&ring=FF2D20&fire=FF6347&currStreakLabel=FF2D20&sideNums=FF2D20&sideLabels=C9D1D9&dates=666666" />
 
 <br/>
 
-<img width="44%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=abdullah2323442&layout=donut-vertical&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF2D20&text_color=C9D1D9&langs_count=8" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=abdullah2323442&theme=radical" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=abdullah2323442&theme=radical" />
 
 <br/>
 
@@ -510,15 +511,6 @@ Daily problem-solving & experiments — documented proof of relentless growth.
   <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=abdullah2323442&theme=minimal&hide_border=true&area=true&color=FF2D20&line=FF2D20&point=141E30" />
   <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=abdullah2323442&theme=react-dark&hide_border=true&area=true&color=FF2D20&line=FF2D20&point=ffffff&bg_color=0D1117" alt="Contribution Graph" />
 </picture>
-
-<br/>
-
-<img src="https://github-readme-stats.vercel.app/api?username=abdullah2323442&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF2D20&icon_color=FF2D20&text_color=ffffff&ring_color=FF2D20" width="48%" />
-<img src="https://github-readme-streak-stats.herokuapp.com?user=abdullah2323442&theme=radical&hide_border=true&background=0D1117&ring=FF2D20&fire=FF2D20&currStreakLabel=FF2D20" width="48%" />
-
-<br/><br/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abdullah2323442&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF2D20&text_color=ffffff&langs_count=8" width="48%" />
 
 </div>
 
