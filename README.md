@@ -245,23 +245,32 @@ final class Abdullah implements Builder, Architect, Learner
 
 <br/>
 
-<table>
-<tr>
-<td width="55%" valign="top">
+---
 
 ### 🔍 The Problem
 
-Universities struggle with **manual, fragmented thesis coordination:**
-- ❌ Scattered email-based communication
-- ❌ No centralized progress tracking
-- ❌ Biased, unstructured supervisor assignments
-- ❌ Lost submissions and missed deadlines
-- ❌ Zero transparency in evaluation pipelines
+> Universities suffer from **manual, fragmented thesis coordination** — costing time, fairness, and accountability.
 
-### ✅ The Solution — Module Breakdown
+<div align="center">
+
+| ❌ Pain Point | Impact |
+|:---|:---|
+| Scattered email-based communication | No audit trail, context lost |
+| No centralized progress tracking | Deadlines missed silently |
+| Biased, unstructured supervisor assignments | Unfair workload distribution |
+| Lost submissions & missed deadlines | Student failure risk |
+| Zero transparency in evaluation pipelines | No accountability |
+
+</div>
+
+---
+
+### ✅ The Solution — 7 Core Modules
+
+<div align="center">
 
 | # | Module | What It Does |
-|:---:|---|---|
+|:---:|:---|:---|
 | 01 | **👥 Multi-Role Auth** | Student · Advisor · Supervisor dashboards with scoped access |
 | 02 | **🤖 Smart Assignment** | Automated supervisor ranking engine with fair load distribution |
 | 03 | **📂 Submission Engine** | Versioned file uploads with inline annotations & review |
@@ -270,15 +279,19 @@ Universities struggle with **manual, fragmented thesis coordination:**
 | 06 | **📈 Progress Tracker** | Real-time thesis status across all stakeholders |
 | 07 | **🔐 RBAC** | Granular, role-scoped permissions throughout |
 
-</td>
-<td width="45%" valign="top">
+</div>
+
+---
 
 ### 🧱 Architecture Deep Dive
+
+<details>
+<summary><b>🤖 Smart Supervisor Assignment Engine</b> — click to expand</summary>
 
 ```php
 <?php
 // 🤖 Intelligent supervisor assignment
-// Matches expertise + balances load
+// Matches expertise + balances load across faculty
 
 class SupervisorAssigner
 {
@@ -305,13 +318,14 @@ Route::middleware(['auth', 'role:supervisor'])
     });
 ```
 
+</details>
+
+---
+
 ### 💡 Why This Isn't a Tutorial Clone
 
-> Built for **real academic workflows** — automated assignment engines, multi-role state machines, versioned document management. Designed like a product, not a homework submission.
-
-</td>
-</tr>
-</table>
+> Built for **real academic workflows** — automated assignment engines, multi-role state machines, versioned document management.  
+> **Designed like a product, not a homework submission.**
 
 <!-- ═══════════════════════ ANIMATED DIVIDER ═══════════════════════ -->
 
