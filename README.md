@@ -513,7 +513,12 @@ Daily problem-solving & experiments — documented proof of relentless growth.
 
 <br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=abdullah2323442&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=8" width="98%" />
+<img src="https://github-readme-stats.vercel.app/api?username=abdullah2323442&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF2D20&icon_color=FF2D20&text_color=ffffff&ring_color=FF2D20" width="48%" />
+<img src="https://github-readme-streak-stats.herokuapp.com?user=abdullah2323442&theme=radical&hide_border=true&background=0D1117&ring=FF2D20&fire=FF2D20&currStreakLabel=FF2D20" width="48%" />
+
+<br/><br/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abdullah2323442&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF2D20&text_color=ffffff&langs_count=8" width="48%" />
 
 </div>
 
