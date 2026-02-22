@@ -1,331 +1,556 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=FF2D20&height=200&section=header&text=MD%20Abdullah%20Jobayer&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Laravel%20Developer%20%7C%20PHP%20Engineer%20%7C%20ML%20Enthusiast&descAlignY=56&descAlign=50" width="100%" />
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     🎨 MD ABDULLAH JOBAYER — GitHub Profile README
+     🏗️ Laravel Developer · PHP Engineer · System Builder
+     🔗 github.com/abdullah2323442
+     ═══════════════════════════════════════════════════════════════════════════ -->
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:141E30,50:FF2D20,100:141E30&height=230&section=header&text=MD%20Abdullah%20Jobayer&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=Laravel%20Developer%20%E2%80%A2%20PHP%20Engineer%20%E2%80%A2%20System%20Architect&descAlignY=52&descSize=18&descAlign=50" width="100%" />
+
+<!-- ═══════════════════════ ANIMATED INTRO ═══════════════════════ -->
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=20&pause=1000&color=FF2D20&center=true&vCenter=true&width=750&height=55&lines=artisan+make%3Adeveloper+Abdullah+--force;Crafting+elegant+PHP+%26+Laravel+solutions+%F0%9F%9A%80;Backend+Architect+%7C+Database+Designer+%7C+Real+System+Builder;From+%F0%9F%87%A7%F0%9F%87%A9+Bangladesh%2C+coding+for+the+world" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=24&duration=3000&pause=1000&color=FF2D20&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=90&lines=%24+php+artisan+make%3Adeveloper+Abdullah+--force;%E2%9C%93+Developer+scaffolded+successfully.+Deploying+to+production...+%F0%9F%9A%80" alt="Typing SVG" />
 
 <br/>
 
-[![Email](https://img.shields.io/badge/Gmail-abdullahjobayernavid-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:abdullahjobayernavid@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abdullah_Jobayer-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/md-abdullah-jobayer-navid-12778a2a7/)
-[![YouTube](https://img.shields.io/badge/YouTube-@abdullahjobayernavid-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@abdullahjobayernavid)
-[![GitHub](https://img.shields.io/badge/GitHub-abdullah2323442-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/abdullah2323442)
+<a href="mailto:abdullahjobayernavid@gmail.com"><img src="https://img.shields.io/badge/Gmail-abdullahjobayernavid-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>&nbsp;
+<a href="https://www.linkedin.com/in/md-abdullah-jobayer-navid-12778a2a7/"><img src="https://img.shields.io/badge/LinkedIn-Abdullah_Jobayer-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>&nbsp;
+<a href="https://www.youtube.com/@abdullahjobayernavid"><img src="https://img.shields.io/badge/YouTube-abdullahjobayernavid-FF0000?style=flat-square&logo=youtube&logoColor=white" /></a>&nbsp;
+<a href="https://github.com/abdullah2323442"><img src="https://img.shields.io/badge/GitHub-abdullah2323442-181717?style=flat-square&logo=github&logoColor=white" /></a>
 
-<img src="https://komarev.com/ghpvc/?username=abdullah2323442&label=Profile+Views&color=FF2D20&style=flat-square" alt="Profile Views" />
-&nbsp;
-![GitHub followers](https://img.shields.io/github/followers/abdullah2323442?style=flat-square&color=FF2D20&logo=github)
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=abdullah2323442&label=Profile+Views&color=FF2D20&style=for-the-badge" alt="Profile Views" />&nbsp;&nbsp;
+<img src="https://img.shields.io/github/followers/abdullah2323442?label=Followers&style=for-the-badge&color=FF2D20&logo=github&logoColor=white" alt="Followers" />&nbsp;&nbsp;
+<img src="https://img.shields.io/github/stars/abdullah2323442?label=Total+Stars&style=for-the-badge&color=FF2D20&logo=github&logoColor=white" alt="Stars" />
 
 </div>
 
----
+<!-- ═══════════════════════ ANIMATED DIVIDER ═══════════════════════ -->
 
-## ⚡ Who Am I?
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+
+<!-- ═══════════════════════ ABOUT ME ═══════════════════════ -->
+
+## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40"> &nbsp;Who Am I?
+
+<img align="right" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" width="380" />
 
 ```php
 <?php
 
-namespace App\Developers;
+namespace App\Engineers;
 
-use App\Traits\PassionateBuilder;
-use App\Traits\ConstantLearner;
+use App\Contracts\{Builder, Architect, Learner};
 
-class Abdullah extends LaravelDeveloper
+final class Abdullah implements Builder, Architect, Learner
 {
-    use PassionateBuilder, ConstantLearner;
+    use Traits\PassionDriven;
+    use Traits\NeverStopsLearning;
 
-    protected string $name     = "MD Abdullah Jobayer";
-    protected string $location = "Chattogram, Bangladesh 🇧🇩";
-    protected string $degree   = "B.Sc. in CSE — Premier University, Chittagong (2021–2025)";
-    protected string $role     = "Full-Stack Web Developer (Laravel · PHP · MySQL)";
+    public readonly string $name;
+    public readonly string $from;
+    public readonly string $degree;
 
-    protected array $strengths = [
-        "Building production-grade Laravel applications",
-        "Designing clean, normalized database schemas",
-        "RESTful API architecture & integration",
-        "Role-based access control & multi-tenant systems",
-        "Turning complex problems into elegant backend solutions",
-    ];
-
-    protected array $currentlyExploring = [
-        "React.js"         => "Modern, component-driven frontends",
-        "Machine Learning" => "Python · scikit-learn · real-world datasets",
-        "Clean Code"       => "SOLID principles & design patterns",
-    ];
-
-    public function getPhilosophy(): string
+    public function __construct()
     {
-        return "Don't just write code — engineer solutions that last.";
+        $this->name   = "MD Abdullah Jobayer";
+        $this->from   = "Chattogram, Bangladesh 🇧🇩";
+        $this->degree = "B.Sc. CSE — Premier University (2021–2025)";
+    }
+
+    /** What I do best */
+    public function strengths(): array
+    {
+        return [
+            "Production-grade Laravel applications",
+            "Clean database schemas & migrations",
+            "RESTful API design & integration",
+            "RBAC & multi-role architectures",
+            "Complex problem → elegant solution",
+        ];
+    }
+
+    /** Where I'm heading */
+    public function exploring(): Collection
+    {
+        return collect([
+            'React.js'          => 'Component-driven UIs',
+            'Machine Learning'  => 'Python · scikit-learn',
+            'System Design'     => 'SOLID · DDD · Patterns',
+        ]);
+    }
+
+    public function philosophy(): string
+    {
+        return "Don't just write code — "
+             . "engineer solutions that outlive you.";
     }
 }
 ```
 
-<div align="center">
+<br clear="both"/>
 
-> *"Don't just write code — engineer solutions that last."*
+<!-- ═══════════════════════ ANIMATED DIVIDER ═══════════════════════ -->
 
-</div>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
----
+<!-- ═══════════════════════ TECH STACK ═══════════════════════ -->
 
-## 🧰 Tech Arsenal
-
-<div align="center">
-
-**⚙️ Core Stack**
-
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP_8.x-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-
-**🖥️ Frontend**
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Bootstrap](https://img.shields.io/badge/Bootstrap_5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38BDF8?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-**💻 Languages**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-
-**🛠️ Tools & Environment**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Composer](https://img.shields.io/badge/Composer-885630?style=for-the-badge&logo=composer&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-
-</div>
-
----
-
-## 🏗️ Flagship Project
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="32" />&nbsp; Tech Arsenal
 
 <div align="center">
 
-### 🎓 University Thesis Management System
-*Final Year Capstone — Enterprise-Grade Academic Workflow Platform*
+<!-- Core Stack -->
+<table>
+<tr>
+<td align="center" width="140">
+<img src="https://skillicons.dev/icons?i=laravel" width="48" height="48" alt="Laravel" />
+<br/><b>Laravel</b>
+<br/><img src="https://img.shields.io/badge/★★★★★-FF2D20?style=flat-square&logoColor=white" />
+</td>
+<td align="center" width="140">
+<img src="https://skillicons.dev/icons?i=php" width="48" height="48" alt="PHP" />
+<br/><b>PHP 8.x</b>
+<br/><img src="https://img.shields.io/badge/★★★★★-777BB4?style=flat-square" />
+</td>
+<td align="center" width="140">
+<img src="https://skillicons.dev/icons?i=mysql" width="48" height="48" alt="MySQL" />
+<br/><b>MySQL</b>
+<br/><img src="https://img.shields.io/badge/★★★★★-4479A1?style=flat-square" />
+</td>
+<td align="center" width="140">
+<img src="https://skillicons.dev/icons?i=js" width="48" height="48" alt="JavaScript" />
+<br/><b>JavaScript</b>
+<br/><img src="https://img.shields.io/badge/★★★★☆-F7DF1E?style=flat-square" />
+</td>
+<td align="center" width="140">
+<img src="https://skillicons.dev/icons?i=python" width="48" height="48" alt="Python" />
+<br/><b>Python</b>
+<br/><img src="https://img.shields.io/badge/★★★☆☆-3776AB?style=flat-square" />
+</td>
+</tr>
+</table>
 
-[![View Repository](https://img.shields.io/badge/🔗_View_Full_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/abdullah2323442/thesisrepo-backup)
-&nbsp;
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![MVC](https://img.shields.io/badge/Pattern-MVC-27ae60?style=flat-square)
-![RBAC](https://img.shields.io/badge/Auth-RBAC-e74c3c?style=flat-square)
+<!-- Frontend & Tools -->
+<table>
+<tr>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML5" />
+<br/><sub><b>HTML5</b></sub>
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=css" width="48" height="48" alt="CSS3" />
+<br/><sub><b>CSS3</b></sub>
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=bootstrap" width="48" height="48" alt="Bootstrap" />
+<br/><sub><b>Bootstrap</b></sub>
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind" />
+<br/><sub><b>Tailwind</b></sub>
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=cpp" width="48" height="48" alt="C++" />
+<br/><sub><b>C++</b></sub>
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=c" width="48" height="48" alt="C" />
+<br/><sub><b>C</b></sub>
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" />
+<br/><sub><b>Git</b></sub>
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=github" width="48" height="48" alt="GitHub" />
+<br/><sub><b>GitHub</b></sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=vscode" width="48" height="48" alt="VS Code" />
+<br/><sub><b>VS Code</b></sub>
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=postman" width="48" height="48" alt="Postman" />
+<br/><sub><b>Postman</b></sub>
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=figma" width="48" height="48" alt="Figma" />
+<br/><sub><b>Figma</b></sub>
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux" />
+<br/><sub><b>Linux</b></sub>
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" />
+<br/><sub><b>React</b></sub>
+<br/><sub>🔄 Learning</sub>
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=docker" width="48" height="48" alt="Docker" />
+<br/><sub><b>Docker</b></sub>
+<br/><sub>🔄 Learning</sub>
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=redis" width="48" height="48" alt="Redis" />
+<br/><sub><b>Redis</b></sub>
+<br/><sub>🔄 Learning</sub>
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=tensorflow" width="48" height="48" alt="TensorFlow" />
+<br/><sub><b>TensorFlow</b></sub>
+<br/><sub>🔄 Learning</sub>
+</td>
+</tr>
+</table>
 
 </div>
+
+<!-- ═══════════════════════ ANIMATED DIVIDER ═══════════════════════ -->
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+
+<!-- ═══════════════════════ FLAGSHIP PROJECT ═══════════════════════ -->
+
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="32" />&nbsp; Flagship Project
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/🎓_University_Thesis_Management_System-FF2D20?style=for-the-badge&logoColor=white" />
+<br/>
+<sub><i>Final Year Capstone — Enterprise-Grade Academic Workflow Platform</i></sub>
+
+<br/><br/>
+
+<a href="https://github.com/abdullah2323442/thesisrepo-backup">
+<img src="https://img.shields.io/badge/⭐_View_Full_Repository_→-141E30?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+<br/><br/>
+
+![Laravel](https://img.shields.io/badge/Laravel_10-FF2D20?style=flat-square&logo=laravel&logoColor=white)&nbsp;
+![PHP](https://img.shields.io/badge/PHP_8.x-777BB4?style=flat-square&logo=php&logoColor=white)&nbsp;
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)&nbsp;
+![Blade](https://img.shields.io/badge/Blade-FF2D20?style=flat-square&logo=laravel&logoColor=white)&nbsp;
+![Bootstrap](https://img.shields.io/badge/Bootstrap_5-7952B3?style=flat-square&logo=bootstrap&logoColor=white)&nbsp;
+![MVC](https://img.shields.io/badge/MVC-27ae60?style=flat-square)&nbsp;
+![RBAC](https://img.shields.io/badge/RBAC-e74c3c?style=flat-square)
+
+</div>
+
+<br/>
 
 <table>
 <tr>
-<td width="54%" valign="top">
+<td width="55%" valign="top">
 
-#### 🔍 The Problem It Solves
-Universities suffer from **manually fragmented thesis coordination** — scattered emails, no status tracking, biased supervisor assignments. This system replaces all of that with a structured, transparent, automated platform.
+### 🔍 The Problem
 
-#### ✅ Feature Modules
+Universities struggle with **manual, fragmented thesis coordination:**
+- ❌ Scattered email-based communication
+- ❌ No centralized progress tracking
+- ❌ Biased, unstructured supervisor assignments
+- ❌ Lost submissions and missed deadlines
+- ❌ Zero transparency in evaluation pipelines
 
-| Module | What It Does |
-|---|---|
-| 👥 **Multi-Role Auth** | Separate dashboards for Students, Advisors & Supervisors |
-| 🤖 **Smart Allocation** | Automated supervisor ranking & fair assignment engine |
-| 📂 **Submission Engine** | File upload with versioning & inline annotations |
-| 🔔 **Notifications** | Workflow-triggered real-time alerts |
-| 📊 **Batch Manager** | Bulk group, semester & record operations |
-| 📈 **Progress Tracker** | Live status visibility across all thesis groups |
-| 🔐 **RBAC** | Fine-grained, role-scoped access control |
+### ✅ The Solution — Module Breakdown
+
+| # | Module | What It Does |
+|:---:|---|---|
+| 01 | **👥 Multi-Role Auth** | Student · Advisor · Supervisor dashboards with scoped access |
+| 02 | **🤖 Smart Assignment** | Automated supervisor ranking engine with fair load distribution |
+| 03 | **📂 Submission Engine** | Versioned file uploads with inline annotations & review |
+| 04 | **🔔 Notifications** | Workflow-triggered alerts across roles |
+| 05 | **📊 Batch Operations** | Bulk semester, group & record management |
+| 06 | **📈 Progress Tracker** | Real-time thesis status across all stakeholders |
+| 07 | **🔐 RBAC** | Granular, role-scoped permissions throughout |
 
 </td>
-<td width="46%" valign="top">
+<td width="45%" valign="top">
 
-#### 🧱 Code Architecture
+### 🧱 Architecture Deep Dive
 
 ```php
-// Supervisor auto-assignment logic
-class SupervisorAssignmentService
+<?php
+// 🤖 Intelligent supervisor assignment
+// Matches expertise + balances load
+
+class SupervisorAssigner
 {
-    public function assignBestFit(Group $group): Supervisor
+    public function bestFit(Group $group): Supervisor
     {
-        return Supervisor::withCount('activeGroups')
-            ->orderBy('active_groups_count', 'asc')
-            ->whereHas('expertise', fn($q) =>
-                $q->where('field', $group->topic_field)
+        return Supervisor::query()
+            ->withCount('activeGroups')
+            ->whereHas('expertise', fn ($q) =>
+                $q->where('field', $group->topic)
             )
-            ->first();
+            ->orderBy('active_groups_count')
+            ->firstOrFail();
     }
 }
 
-// Role-scoped route groups
+// 🔐 Role-scoped route middleware
 Route::middleware(['auth', 'role:supervisor'])
-     ->prefix('supervisor')
-     ->group(function () {
-         Route::resource('theses', ThesisController::class);
-         Route::post('assign', [AssignController::class, 'store']);
-     });
+    ->prefix('supervisor')
+    ->as('supervisor.')
+    ->group(function () {
+        Route::resource('theses', ThesisController::class);
+        Route::post('assign', AssignController::class);
+        Route::get('evaluate/{thesis}', EvalController::class);
+    });
 ```
 
-#### 💡 What Sets It Apart
-> This is a **real, deployable system** that handles genuine academic workflows — not a tutorial clone. Built with scalability, maintainability, and real users in mind.
+### 💡 Why This Isn't a Tutorial Clone
+
+> Built for **real academic workflows** — automated assignment engines, multi-role state machines, versioned document management. Designed like a product, not a homework submission.
 
 </td>
 </tr>
 </table>
 
----
+<!-- ═══════════════════════ ANIMATED DIVIDER ═══════════════════════ -->
 
-## 📂 Other Projects
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+
+<!-- ═══════════════════════ OTHER PROJECTS ═══════════════════════ -->
+
+## <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="32" />&nbsp; Project Portfolio
+
+<div align="center">
 
 <table>
 <tr>
+
+<!-- Project 1 -->
 <td width="50%" valign="top">
-
-### 💻 Laravel Blog Platform (CMS)
-A fully functional content management system built end-to-end with Laravel, covering the complete blog lifecycle with a polished admin area.
-
-```
-✦ Secure auth & session management
-✦ Category-based post organization
-✦ Admin dashboard with full CRUD
-✦ Slug-based, SEO-friendly URLs
-✦ Relational MySQL data design
-```
+<h3 align="center">💻 Laravel Blog CMS</h3>
+<div align="center">
 
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
-[![View Repo](https://img.shields.io/badge/Repository→-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/abdullah2323442/Laravel-Blog-Platform)
+</div>
 
+Production-level blog CMS with clean admin panel and complete auth flow.
+
+```
+  ✦ Full authentication & authorization
+  ✦ Category-based post management
+  ✦ Rich admin CRUD dashboard
+  ✦ SEO-friendly slug routing
+  ✦ Normalized relational schema
+```
+
+<div align="center">
+<a href="https://github.com/abdullah2323442/Laravel-Blog-Platform"><img src="https://img.shields.io/badge/Source_Code_→-141E30?style=for-the-badge&logo=github&logoColor=white" width="200" /></a>
+</div>
 </td>
+
+<!-- Project 2 -->
 <td width="50%" valign="top">
-
-### 🎨 Developer Portfolio Website
-A clean, responsive portfolio site built to present work and skills professionally for recruiters and clients.
-
-```
-✦ Fully responsive across all devices
-✦ Smooth scroll & section transitions
-✦ Projects & skills showcase
-✦ Contact form integration
-✦ Clean, semantic HTML structure
-```
+<h3 align="center">🎨 Developer Portfolio</h3>
+<div align="center">
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JS-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-[![View Repo](https://img.shields.io/badge/Repository→-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/abdullah2323442/Jobayer-portfolio)
+</div>
 
+Modern, responsive portfolio site built for recruiters and clients.
+
+```
+  ✦ Fully responsive across devices
+  ✦ Smooth scroll & animations
+  ✦ Projects & skills showcase
+  ✦ Contact form integration
+  ✦ Semantic, accessible markup
+```
+
+<div align="center">
+<a href="https://github.com/abdullah2323442/Jobayer-portfolio"><img src="https://img.shields.io/badge/Source_Code_→-141E30?style=for-the-badge&logo=github&logoColor=white" width="200" /></a>
+</div>
 </td>
+
 </tr>
 <tr>
+
+<!-- Project 3 -->
 <td width="50%" valign="top">
-
-### 🔐 PHP Auth System
-A secure login & registration system built from scratch — demonstrating deep understanding of auth fundamentals before using frameworks.
-
-```
-✦ bcrypt password hashing
-✦ Server-side form validation
-✦ SQL injection & XSS prevention
-✦ Session-based auth lifecycle
-✦ Clean, raw PHP + MySQL
-```
+<h3 align="center">🔐 PHP Auth System</h3>
+<div align="center">
 
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
-[![View Repo](https://img.shields.io/badge/Repository→-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/abdullah2323442/login)
+</div>
 
+Secure auth from scratch — proving deep understanding before frameworks do it for you.
+
+```
+  ✦ bcrypt password hashing
+  ✦ Server-side validation
+  ✦ SQL injection prevention
+  ✦ Session lifecycle control
+  ✦ Clean, raw PHP architecture
+```
+
+<div align="center">
+<a href="https://github.com/abdullah2323442/login"><img src="https://img.shields.io/badge/Source_Code_→-141E30?style=for-the-badge&logo=github&logoColor=white" width="200" /></a>
+</div>
 </td>
+
+<!-- Project 4 -->
 <td width="50%" valign="top">
-
-### 📚 DSA & Learning Repository
-A curated collection of daily problem-solving and learning code — proof that my growth is consistent and documented.
-
-```
-✦ C / C++ algorithms & data structures
-✦ Python scripting & automation
-✦ Machine Learning experiments
-✦ PHP mini-project challenges
-✦ OOP & design pattern exercises
-```
+<h3 align="center">📚 DSA & Learning Lab</h3>
+<div align="center">
 
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
-[![All Repos](https://img.shields.io/badge/All_Repositories→-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/abdullah2323442?tab=repositories)
+</div>
 
+Daily problem-solving & experiments — documented proof of relentless growth.
+
+```
+  ✦ C/C++ algorithms & structures
+  ✦ Python scripting & automation
+  ✦ Machine Learning experiments
+  ✦ PHP mini-projects
+  ✦ OOP & design patterns
+```
+
+<div align="center">
+<a href="https://github.com/abdullah2323442?tab=repositories"><img src="https://img.shields.io/badge/All_Repositories_→-141E30?style=for-the-badge&logo=github&logoColor=white" width="200" /></a>
+</div>
 </td>
+
 </tr>
 </table>
 
----
+</div>
 
-## 📊 GitHub Performance
+<!-- ═══════════════════════ ANIMATED DIVIDER ═══════════════════════ -->
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+
+<!-- ═══════════════════════ GITHUB STATS ═══════════════════════ -->
+
+## <img src="https://media.giphy.com/media/cj87CxfRtrUifF3Rav/giphy.gif" width="32" />&nbsp; GitHub Analytics
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=abdullah2323442&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true&title_color=FF2D20&icon_color=FF2D20" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=abdullah2323442&theme=radical&hide_border=true&ring=FF2D20&fire=FF2D20&currStreakLabel=FF2D20" />
+<img width="49%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=abdullah2323442&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF2D20&icon_color=FF2D20&text_color=C9D1D9&count_private=true&include_all_commits=true" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=abdullah2323442&theme=radical&hide_border=true&background=0D1117&ring=FF2D20&fire=FF6347&currStreakLabel=FF2D20&sideNums=FF2D20&sideLabels=C9D1D9&dates=666666" />
 
 <br/>
 
-<img width="44%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=abdullah2323442&layout=donut&theme=radical&hide_border=true&title_color=FF2D20&langs_count=8" />
+<img width="44%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=abdullah2323442&layout=donut-vertical&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF2D20&text_color=C9D1D9&langs_count=8" />
 
 <br/>
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=abdullah2323442&theme=redical&hide_border=true&area=true&color=FF2D20&line=FF2D20&point=ffffff)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=abdullah2323442&theme=react-dark&hide_border=true&area=true&color=FF2D20&line=FF2D20&point=ffffff&bg_color=0D1117" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=abdullah2323442&theme=minimal&hide_border=true&area=true&color=FF2D20&line=FF2D20&point=141E30" />
+  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=abdullah2323442&theme=react-dark&hide_border=true&area=true&color=FF2D20&line=FF2D20&point=ffffff&bg_color=0D1117" alt="Contribution Graph" />
+</picture>
 
 <br/>
 
-[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=abdullah2323442&theme=radical&no-frame=true&column=7&margin-w=6)](https://github.com/ryo-ma/github-profile-trophy)
+<img src="https://github-profile-trophy.vercel.app/?username=abdullah2323442&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=8" width="98%" />
 
 </div>
 
----
-
-## 🧭 Current Mission
+<!-- ═══════════════════════ SNAKE ANIMATION ═══════════════════════ -->
 
 <div align="center">
 
-| 🔨 Building | 📖 Learning | 🎯 Target Outcome |
-|:---:|:---:|:---:|
-| Thesis Management System | React.js + component patterns | Production-ready deployment |
-| RESTful Laravel APIs | Machine Learning with Python | Combined ML + Web solutions |
-| Scalable service layers | SOLID & Design Patterns | Maintainable architecture |
-| Real-world portfolio apps | Docker & CI/CD fundamentals | Full DevOps awareness |
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abdullah2323442/abdullah2323442/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abdullah2323442/abdullah2323442/output/github-snake.svg" />
+  <img src="https://raw.githubusercontent.com/abdullah2323442/abdullah2323442/output/github-snake-dark.svg" alt="GitHub Contribution Snake" width="100%" />
+</picture>
 
 </div>
 
----
+<!-- ═══════════════════════ ANIMATED DIVIDER ═══════════════════════ -->
 
-## 🤝 Let's Build Something Together
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+
+<!-- ═══════════════════════ ROADMAP ═══════════════════════ -->
+
+## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="32" />&nbsp; Current Mission
 
 <div align="center">
 
-*I'm a backend-focused Laravel developer who takes systems seriously.*
-*Whether it's a complex web application, a RESTful API, or an open-source collaboration — I'm in.*
-
-<br/>
-
-[![📧 Email Me](https://img.shields.io/badge/📧_Send_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abdullahjobayernavid@gmail.com)
-[![💼 LinkedIn](https://img.shields.io/badge/💼_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/md-abdullah-jobayer-navid-12778a2a7/)
-[![▶ YouTube](https://img.shields.io/badge/▶_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@abdullahjobayernavid)
-
-<br/>
-
-📍 **Chattogram, Bangladesh** &nbsp;·&nbsp; 💼 **Open to:** `Freelance` `Collaboration` `Open Source`
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=FF2D20&height=130&section=footer&text=Thanks+for+visiting!+⭐+Star+if+you+like+my+work&fontSize=18&fontColor=ffffff&animation=twinkling&fontAlignY=65" width="100%" />
+```mermaid
+mindmap
+  root((🎯 Abdullah's<br/>Roadmap))
+    🔨 Building
+      Thesis Management System
+      RESTful Laravel APIs
+      Scalable Service Layers
+      Portfolio-Grade Projects
+    📖 Learning
+      React.js + SPA Patterns
+      Machine Learning · Python
+      Docker + CI/CD Pipelines
+      SOLID + Design Patterns
+    🚀 Goals
+      Production Deployments
+      ML × Web Integration
+      Clean Architecture Mastery
+      Open Source Contributor
+```
 
 </div>
 
+<!-- ═══════════════════════ ANIMATED DIVIDER ═══════════════════════ -->
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+
+<!-- ═══════════════════════ CONNECT ═══════════════════════ -->
+
+## <img src="https://media.giphy.com/media/pDh3IDoUswmZrJ3zSR/giphy.gif" width="32" />&nbsp; Let's Build Something Together
+
+<div align="center">
+
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=16&duration=4000&pause=2000&color=FF2D20&center=true&vCenter=true&width=600&height=35&lines=I+build+systems+that+work%2C+not+just+projects+that+demo.;Open+to+freelance%2C+collaboration%2C+and+open+source." alt="Typing SVG" />
+
+<br/><br/>
+
+<a href="mailto:abdullahjobayernavid@gmail.com">
+  <img src="https://img.shields.io/badge/📧_Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="40" />
+</a>&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/md-abdullah-jobayer-navid-12778a2a7/">
+  <img src="https://img.shields.io/badge/💼_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="40" />
+</a>&nbsp;&nbsp;
+<a href="https://www.youtube.com/@abdullahjobayernavid">
+  <img src="https://img.shields.io/badge/▶_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" height="40" />
+</a>
+
+<br/><br/>
+
+📍 **Chattogram, Bangladesh** &nbsp;·&nbsp; 💼 **Open to:** `Freelance` &nbsp;`Collaboration` &nbsp;`Open Source` &nbsp;`Remote Work`
+
+<br/>
+
+---
+
+<br/>
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=First%2C%20solve%20the%20problem.%20Then%2C%20write%20the%20code.&author=John%20Johnson" width="80%" />
+
+<br/><br/>
+
+</div>
+
+<!-- ═══════════════════════ FOOTER ═══════════════════════ -->
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:141E30,50:FF2D20,100:141E30&height=150&section=footer&text=⭐%20Star%20my%20repos%20if%20you%20found%20them%20useful!&fontSize=16&fontColor=ffffff&animation=twinkling&fontAlignY=65" width="100%" />
