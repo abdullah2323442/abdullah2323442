@@ -35,7 +35,9 @@
 
 ## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40"> &nbsp;Who Am I?
 
-<img align="right" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" width="380" />
+<table>
+<tr>
+<td valign="top" width="56%">
 
 ```php
 <?php
@@ -90,7 +92,41 @@ final class Abdullah implements Builder, Architect, Learner
 }
 ```
 
-<br clear="both"/>
+</td>
+<td valign="top" width="44%" align="center">
+
+<img src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" width="100%" />
+
+<br/>
+
+**🌍 Based in** Chattogram, Bangladesh 🇧🇩
+
+<br/>
+
+![Laravel](https://img.shields.io/badge/Laravel-Expert-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP_8.x-Expert-777BB4?style=flat-square&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-Expert-4479A1?style=flat-square&logo=mysql&logoColor=white)
+
+<br/>
+
+**🔭 Currently Building**
+```
+Thesis Management System
+Enterprise Laravel APIs
+```
+
+**📖 Currently Learning**
+```
+React.js · Machine Learning
+Docker · System Design
+```
+
+**⚡ Philosophy**
+> *Engineer solutions that outlive you.*
+
+</td>
+</tr>
+</table>
 
 <!-- ═══════════════════════ ANIMATED DIVIDER ═══════════════════════ -->
 
