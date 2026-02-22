@@ -483,38 +483,6 @@ Daily problem-solving & experiments — documented proof of relentless growth.
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-<!-- ═══════════════════════ ROADMAP ═══════════════════════ -->
-
-## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="32" />&nbsp; Current Mission
-
-<div align="center">
-
-```mermaid
-mindmap
-  root((🎯 Abdullah's<br/>Roadmap))
-    🔨 Building
-      Thesis Management System
-      RESTful Laravel APIs
-      Scalable Service Layers
-      Portfolio-Grade Projects
-    📖 Learning
-      React.js + SPA Patterns
-      Machine Learning · Python
-      Docker + CI/CD Pipelines
-      SOLID + Design Patterns
-    🚀 Goals
-      Production Deployments
-      ML × Web Integration
-      Clean Architecture Mastery
-      Open Source Contributor
-```
-
-</div>
-
-<!-- ═══════════════════════ ANIMATED DIVIDER ═══════════════════════ -->
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
-
 <!-- ═══════════════════════ CONNECT ═══════════════════════ -->
 
 ## <img src="https://media.giphy.com/media/pDh3IDoUswmZrJ3zSR/giphy.gif" width="32" />&nbsp; Let's Build Something Together
