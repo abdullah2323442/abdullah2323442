@@ -543,10 +543,10 @@ Daily problem-solving & experiments — documented proof of relentless growth.
 <a href="mailto:abdullahjobayernavid@gmail.com">
   <img src="https://img.shields.io/badge/📧_Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="40" />
 </a>&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/md-abdullah-jobayer-navid-12778a2a7/">
+<a href="https://www.linkedin.com/in/abdullah-jobayer-687451232/">
   <img src="https://img.shields.io/badge/💼_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="40" />
 </a>&nbsp;&nbsp;
-<a href="https://www.youtube.com/@abdullahjobayernavid">
+<a href="https://www.youtube.com/@basiccse2844">
   <img src="https://img.shields.io/badge/▶_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" height="40" />
 </a>
 
