@@ -269,7 +269,7 @@ Docker · System Design
 
 <br/><br/>
 
-![Laravel](https://img.shields.io/badge/Laravel_10-FF2D20?style=flat-square&logo=laravel&logoColor=white)&nbsp;
+![Laravel](https://img.shields.io/badge/Laravel_12-FF2D20?style=flat-square&logo=laravel&logoColor=white)&nbsp;
 ![PHP](https://img.shields.io/badge/PHP_8.x-777BB4?style=flat-square&logo=php&logoColor=white)&nbsp;
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)&nbsp;
 ![Blade](https://img.shields.io/badge/Blade-FF2D20?style=flat-square&logo=laravel&logoColor=white)&nbsp;
